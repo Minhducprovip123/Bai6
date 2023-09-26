@@ -5,26 +5,20 @@ public class MainApp {
 		// TODO Auto-generated method stub
 		String firstName= "Cao Minh";
 		String lastName= "Duc";
-		String id= "100602";
-		String id2= "044202005179";
+		int idsv = 100602;
+		int id2 = 12345;
 		String className="23cd";
 		String schoolName="Cao dang cong nghiep Hue";
 		float mark = 9f;
 		
 		
-		System.out.println("Ho va ten:");
-		System.out.println(firstName + "" + lastName);
-		System.out.println("Ma sinh vien:");
-		System.out.println(id);
-		System.out.println("CCCD:");
-		System.out.println(id2);
-		System.out.println("Lop:");
-		System.out.println(className);
-		System.out.println("Truong:");
-		System.out.println(schoolName);
-		System.out.println("Diem trung binh:");
-		System.out.println(mark);
-		
+		System.out.println("Ho va ten:" +firstName + lastName);
+		System.out.println("Ma sinh vien:"+idsv);
+		System.out.println("CCCD:"+id2);
+		System.out.println("Lop:"+className);
+		System.out.println("Truong:"+schoolName);
+		System.out.println("Diem trung binh:"+mark);
+
 		
 		
 		
